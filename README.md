@@ -5,10 +5,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-Docker       1 hr 8 mins     ██████████████████░░░░░░░   72.23 %
-Bash         14 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.02 %
-HTML         11 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.70 %
-JavaScript   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+From: 01 January 2023 - To: 02 January 2023
+
+Total Time: 1 hr 34 mins
+
+Docker       1 hr 8 mins     >>>>>>>>>>>>>>>>>>-------   72.23 %
+Bash         14 mins         >>>>---------------------   15.02 %
+HTML         11 mins         >>>----------------------   12.70 %
+JavaScript   0 secs          -------------------------   00.05 %
 ```
 
 <!--END_SECTION:waka-->
