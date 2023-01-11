@@ -2,8 +2,7 @@
 - 🔭 I’m currently working at Boehringer Ingelheim
 - 🌱 I’m currently learning Kubernetes
 
-
-<!-- 
+ 
 <!--START_SECTION:waka-->
 
 ```text
@@ -21,5 +20,4 @@ JSON                       1 hr 23 mins    >------------------------   05.62 %
 
 <!--END_SECTION:waka-->
 
--->
  
