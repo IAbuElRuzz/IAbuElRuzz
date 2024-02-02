@@ -1,8 +1,5 @@
 ### Hi there 👋
-- 🔭 I’m currently working at Boehringer Ingelheim
-- 🌱 I’m currently learning Kubernetes
 
- 
 <!--START_SECTION:waka-->
 
 ```txt
