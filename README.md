@@ -15,5 +15,3 @@ HTML                       45 hrs 13 mins  >------------------------   03.18 %
 ```
 
 <!--END_SECTION:waka-->
-
-[![GitHub Trends SVG](https://api.githubtrends.io/user/svg/IAbuElRuzz/langs)](https://githubtrends.io)
