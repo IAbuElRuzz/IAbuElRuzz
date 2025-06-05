@@ -3,9 +3,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 January 2023 - To: 02 June 2025
+From: 01 January 2023 - To: 03 June 2025
 
-Total Time: 1,607 hrs 6 mins
+Total Time: 1,607 hrs 7 mins
 
 Python                     846 hrs 48 mins >>>>>>>>>>>>>------------   52.69 %
 TypeScript                 320 hrs 45 mins >>>>>--------------------   19.96 %
