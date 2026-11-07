@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="552" viewBox="0 0 1200 552" role="img" aria-labelledby="title desc">
+<title id="title">RepoSpect fixture trace</title>
+<desc id="desc">Selected real findings and static references from the harmless three-file fixture. Seven findings, including download-and-execute and credential access indicators. References do not prove execution.</desc>
+<rect width="1200" height="552" rx="20" fill="#091425"/>
+<path d="M20 0H1180Q1200 0 1200 20V62H0V20Q0 0 20 0" fill="#132238"/>
+<circle cx="30" cy="31" r="7" fill="#ff7b72"/><circle cx="54" cy="31" r="7" fill="#fbbf24"/><circle cx="78" cy="31" r="7" fill="#4ade80"/>
+<text x="114" y="37" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" fill="#94a3b8">repospect / safe synthetic fixture</text>
+<text x="36" y="108" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#67e8f9" xml:space="preserve">$ repospect trace testdata/suspicious</text>
+<text x="36" y="138" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve"></text>
+<text x="36" y="168" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#94a3b8" xml:space="preserve">3 files  ·  7 findings  ·  static analysis only</text>
+<text x="36" y="198" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve"></text>
+<text x="36" y="228" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve">package.json</text>
+<text x="36" y="258" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#67e8f9" xml:space="preserve">  └─ preinstall                         confirmed definition</text>
+<text x="36" y="288" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve">      └─ scripts/install.js             inferred reference</text>
+<text x="36" y="318" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve">          └─ scripts/bootstrap.sh       inferred reference</text>
+<text x="36" y="348" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve"></text>
+<text x="36" y="378" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#fbbf24" xml:space="preserve">[HIGH] RS001  Remote download piped into an interpreter</text>
+<text x="36" y="408" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#cbd5e1" xml:space="preserve">[MEDIUM] RS002  Sensitive credential location referenced</text>
+<text x="36" y="438" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#fbbf24" xml:space="preserve">[HIGH] RS200  Install chain contains credential + network indicators</text>
+<text x="36" y="468" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#e2e8f0" xml:space="preserve"></text>
+<text x="36" y="498" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" fill="#94a3b8" xml:space="preserve">Inferred references are not proof of execution or dataflow.</text>
+</svg>
