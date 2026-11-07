@@ -6,6 +6,19 @@ I build tools that make complex systems easier to inspect, reason about, and use
 
 [Featured projects](#featured-engineering-projects) · [Engineering approach](#engineering-approach) · [Open source](#open-source--collaboration) · [GitHub](https://github.com/IAbuElRuzz)
 
+## Project spotlight
+
+Six starting points across security, AI, and developer tooling:
+
+| Project | Explore |
+| :--- | :--- |
+| **[RepoSpect](https://github.com/IAbuElRuzz/RepoSpect)** | Inspect repository behavior and trace suspicious file references before execution. |
+| **[RepoSentry](https://github.com/IAbuElRuzz/RepoSentry)** | Triage source, workflow, and dependency-manifest security signals. |
+| **[RepoSignal](https://github.com/IAbuElRuzz/RepoSignal)** | Find actionable documentation and repository maintenance improvements. |
+| **[PDF-Rag](https://github.com/IAbuElRuzz/PDF-Rag)** | Explore PDF retrieval and question answering with local models. |
+| **[StoryOS](https://github.com/IAbuElRuzz/StoryOS)** | Compile YAML stories into cached, dependency-aware video assets. |
+| **[llm-orca](https://github.com/IAbuElRuzz/llm-orca)** | Route prompts, pack context, and compare local coding assistants. |
+
 ## Featured engineering projects
 
 ### [RepoSpect](https://github.com/IAbuElRuzz/RepoSpect) · Inspect before you execute
