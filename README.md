@@ -14,7 +14,7 @@ Six starting points across security, AI, and developer tooling:
 | :--- | :--- |
 | **[RepoSpect](https://github.com/IAbuElRuzz/RepoSpect)** | Inspect repository behavior and trace suspicious file references before execution. |
 | **[RepoSentry](https://github.com/IAbuElRuzz/RepoSentry)** | Triage source, workflow, and dependency-manifest security signals. |
-| **[RepoSignal](https://github.com/IAbuElRuzz/RepoSignal)** | Find actionable documentation and repository maintenance improvements. |
+| **[TokenScope](https://github.com/IAbuElRuzz/TokenScope)** | Inspect local coding-agent token usage, costs, sessions, and trends across providers. |
 | **[PDF-Rag](https://github.com/IAbuElRuzz/PDF-Rag)** | Explore PDF retrieval and question answering with local models. |
 | **[MCP-Sentry](https://github.com/IAbuElRuzz/MCP-Sentry)** | Monitor MCP tool traffic and apply local policies before forwarding requests. |
 | **[llm-orca](https://github.com/IAbuElRuzz/llm-orca)** | Route prompts, pack context, and compare local coding assistants. |
@@ -61,17 +61,18 @@ go build -trimpath -o bin/repospect ./cmd/repospect
 
 ---
 
-### [RepoSignal](https://github.com/IAbuElRuzz/RepoSignal) · Repository maintenance intelligence
+### [TokenScope](https://github.com/IAbuElRuzz/TokenScope) · Local-first AI usage observability
 
-**Help maintainers find concrete improvements in their public repositories.** An evidence-based GitHub auditor for discoverability, documentation, and maintenance signals.
+**Understand token usage across coding-agent sessions from a private local dashboard.** TokenScope discovers supported Claude Code, Codex, and Gemini CLI logs, then tracks usage metadata without storing prompts or requiring provider credentials.
 
-- Checks descriptions, topics, and root-level README, license, security, and contribution files.
-- Identifies selected runtime artifacts accidentally tracked at the repository root.
-- Separates GitHub data acquisition, audit rules, and Markdown reporting behind a repeatable CLI.
+- Ingests local session logs into a retained ledger with replay handling, session history, filtering, and CSV/JSON export.
+- Estimates API-equivalent costs with explicit coverage limits, and separates estimates from authoritative billed amounts.
+- Includes context and budget alerts, analytics, optional prompt fingerprints, and an authenticated dashboard.
+- Offers an opt-in self-hosted team server with private account dashboards and revocable device enrollment.
 
-**Python 3.11+ · GitHub REST API · v0.1.** Audits public repository signals; it does not scan source for malware or assess people.
+**Python 3.11+ · React/TypeScript · v0.1.0 experimental.** Integrations read evolving local log formats; review compatibility and validation notes before relying on totals for billing. Server mode is an early single-process SQLite deployment.
 
-[Quick start](https://github.com/IAbuElRuzz/RepoSignal#quick-start) · [Audit rules](https://github.com/IAbuElRuzz/RepoSignal/blob/main/src/reposignal/audit.py) · [Tests](https://github.com/IAbuElRuzz/RepoSignal/tree/main/tests)
+[Quick start](https://github.com/IAbuElRuzz/TokenScope#quick-start) · [Architecture](https://github.com/IAbuElRuzz/TokenScope/blob/main/docs/architecture.md) · [Compatibility](https://github.com/IAbuElRuzz/TokenScope/blob/main/docs/compatibility.md) · [Validation limits](https://github.com/IAbuElRuzz/TokenScope/blob/main/docs/validation.md)
 
 ---
 
